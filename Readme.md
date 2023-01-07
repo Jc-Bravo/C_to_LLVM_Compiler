@@ -4,14 +4,14 @@
 
 - python 3.10
 
-- Ubuntu desktop aarch64 (on Parallels Desktop 18)
+- Linux codespaces-1df23a 5.4.0-1098-azure #104~18.04.2-Ubuntu SMP Tue Nov 29 12:13:35 UTC 2022 x86_64 x86_64 x86_64 GNU/Linux
 
-- pip requirements (latest):
+### install 
 
 ```shell
-antlr4-tools
-antlr4-python3-runtime==4.11
-llvmlite
+pip install antlr4-tools
+pip install antlr4-python3-runtime==4.11
+pip install llvmlite
 ```
 
 - apt requirements:
