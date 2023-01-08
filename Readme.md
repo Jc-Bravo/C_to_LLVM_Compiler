@@ -4,7 +4,9 @@
 
 - python 3.10
 
-- Linux codespaces-1df23a 5.4.0-1098-azure #104~18.04.2-Ubuntu SMP Tue Nov 29 12:13:35 UTC 2022 x86_64 x86_64 x86_64 GNU/Linux
+- Ubuntu 18.04 (x86_64 & arm)
+    
+可以在`generator/generator.py`中 Class Visitor中，通过`self.ARCH = 'x86_64' # or 'arm64'`来控制生成对应为arm还是x86结构的代码，默认为x86
 
 ### install 
 
@@ -32,5 +34,6 @@ antlr4==4.11
 运行：
 
 `lli example/example.ll`
+
 
 
